@@ -1,0 +1,42 @@
+{
+  "catalogSchemaVersion": 1,
+  "catalogVersion": 1,
+  "packages": [
+    {
+      "packageId": "us-national-parks",
+      "packageVersion": 1,
+      "displayName": "US National Parks",
+      "description": "All National Parks managed by the National Park Service.",
+      "author": "Journey",
+      "icon": "tree",
+      "accentColor": "#1B5E20",
+      "category": "Nature",
+      "countryCode": "US",
+      "countryName": "United States",
+      "journeyName": "U.S. National Parks",
+      "journeyDescription": "Explore all 63 congressionally designated national parks across the United States and its territories, from iconic mountain and desert landscapes to tropical reefs, ancient forests, caves, and remote Arctic wilderness.",
+      "regionCode": "US",
+      "placeCount": 63,
+      "packagePath": "packages/us_national_parks.json",
+      "sha256": "454e4d1bb0cb37af8f12fdd93f9c4f9f8c103d81282fd10c31da5b44e72959e4"
+    },
+    {
+      "packageId": "wisconsin-state-parks",
+      "packageVersion": 1,
+      "displayName": "Wisconsin State Parks",
+      "description": "Explore Wisconsin's state parks, forests, and recreation areas.",
+      "author": "Journey",
+      "icon": "tree",
+      "accentColor": "#2E7D32",
+      "category": "Nature",
+      "countryCode": "US",
+      "countryName": "United States",
+      "journeyName": "Wisconsin State Parks",
+      "journeyDescription": "Explore 50 remarkable state parks and recreation areas across Wisconsin, from Great Lakes shorelines and Northwoods waterfalls to Driftless bluffs and glacial landscapes.",
+      "regionCode": "US-WI",
+      "placeCount": 50,
+      "packagePath": "packages/wisconsin_state_parks.json",
+      "sha256": "f304f97c9cf7a3413cc163211f7b768b5ed4e70839c7f00b56f91918c39baace"
+    }
+  ]
+}
