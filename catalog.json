@@ -1,6 +1,6 @@
 {
   "catalogSchemaVersion": 1,
-  "catalogVersion": 1,
+  "catalogVersion": 2,
   "packages": [
     {
       "packageId": "us-national-parks",
