@@ -2,11 +2,11 @@
   "schemaVersion": 3,
   "metadata": {
     "packageId": "us-nfl-football-stadiums",
-    "packageVersion": 2,
+    "packageVersion": 3,
     "displayName": "US NFL Football Stadiums",
     "description": "All active home stadiums used by National Football League teams in the United States.",
     "author": "Journey",
-    "icon": "football",
+    "icon": "stadium",
     "accentColor": "#6D4C41",
     "category": "Sports",
     "countryCode": "US",
@@ -18,8 +18,8 @@
     "description": "Visit the 30 active stadiums used by all 32 NFL teams, from historic venues such as Lambeau Field and Soldier Field to modern landmarks including SoFi Stadium, Allegiant Stadium, and Buffalo's new Highmark Stadium.",
     "type": "STADIUMS",
     "regionCode": "US",
-    "iconName": "football",
-    "version": 2,
+    "iconName": "stadium",
+    "version": 3,
     "mapPackageId": "us",
     "items": [
       {
