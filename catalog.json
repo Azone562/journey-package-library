@@ -37,6 +37,24 @@
       "placeCount": 50,
       "packagePath": "packages/wisconsin_state_parks.json",
       "sha256": "f304f97c9cf7a3413cc163211f7b768b5ed4e70839c7f00b56f91918c39baace"
+    },
+    {
+      "packageId": "us-nfl-football-stadiums",
+      "packageVersion": 1,
+      "displayName": "US NFL Football Stadiums",
+      "description": "All active home stadiums used by National Football League teams in the United States.",
+      "author": "Journey",
+      "icon": "football",
+      "accentColor": "#6D4C41",
+      "category": "Sports",
+      "countryCode": "US",
+      "countryName": "United States",
+      "journeyName": "U.S. NFL Football Stadiums",
+      "journeyDescription": "Visit the 30 active stadiums used by all 32 NFL teams, from historic venues such as Lambeau Field and Soldier Field to modern landmarks including SoFi Stadium, Allegiant Stadium, and Buffalo's new Highmark Stadium.",
+      "regionCode": "US",
+      "placeCount": 30,
+      "packagePath": "packages/us_nfl_football_stadiums.json",
+      "sha256": "0bad7141d9e01e6e8bdd5bb4e9d1c8e87e271a07165c5b5d775bc30247be9217"
     }
   ]
 }
