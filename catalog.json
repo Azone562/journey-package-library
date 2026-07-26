@@ -1,6 +1,6 @@
 {
   "catalogSchemaVersion": 1,
-  "catalogVersion": 3,
+  "catalogVersion": 4,
   "packages": [
     {
       "packageId": "us-national-parks",
@@ -40,11 +40,11 @@
     },
     {
       "packageId": "us-nfl-football-stadiums",
-      "packageVersion": 2,
+      "packageVersion": 3,
       "displayName": "US NFL Football Stadiums",
       "description": "All active home stadiums used by National Football League teams in the United States.",
       "author": "Journey",
-      "icon": "football",
+      "icon": "stadium",
       "accentColor": "#6D4C41",
       "category": "Sports",
       "countryCode": "US",
@@ -54,7 +54,7 @@
       "regionCode": "US",
       "placeCount": 30,
       "packagePath": "packages/us_nfl_football_stadiums.json",
-      "sha256": "3CF06072DE36B24A44911F90B9BD9ECFC0BDA45C39CF1B9789DBD5070D948635"
+      "sha256": "11B79C353AF5BDDE4AF69513303EE085DFB67FB9AFD6A4E17881830833CA7725"
     }
   ]
 }
