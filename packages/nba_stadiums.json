@@ -9,15 +9,15 @@
     "icon": "stadium",
     "accentColor": "#EF6C00",
     "category": "Sports",
-    "countryCode": null,
-    "countryName": null
+    "countryCode": "US",
+    "countryName": "United States"
   },
   "journey": {
     "stableKey": "nba-stadiums",
     "name": "NBA Stadiums",
     "description": "Visit all 30 active National Basketball Association home arenas across the United States and Canada, from historic Madison Square Garden and TD Garden to modern landmarks such as Chase Center and Intuit Dome.",
-    "type": "NBA_STADIUMS",
-    "regionCode": null,
+    "type": "STADIUMS",
+    "regionCode": "US",
     "iconName": "stadium",
     "version": 1,
     "mapPackageId": "north-america",
