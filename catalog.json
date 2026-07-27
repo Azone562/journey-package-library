@@ -72,7 +72,7 @@
       "regionCode": "US",
       "placeCount": 30,
       "packagePath": "packages/mlb_stadiums.json",
-      "sha256": "1971BA1AE44AF64968AED9DC2E80F578BE5F8854F9098F65F7D3360D9D6EF9AB"
+      "sha256": "EEF3D402428F2C38D710E107874750E73378DEFEFF75A2C6C492333EC08C340B"
     },
     {
       "packageId": "nhl-stadiums",
@@ -90,7 +90,7 @@
       "regionCode": "US",
       "placeCount": 32,
       "packagePath": "packages/nhl_stadiums.json",
-      "sha256": "c37b1e6c7214ffbe3e0f3213c17ae5f3c59ab84cd3d48730f3778d2276b197f4"
+      "sha256": "70F1730B3EC12BB87D3BFB85B363F8D29E59149ED1C927C5BC80ABDFCDD240E9"
     },
     {
       "packageId": "nba-stadiums",
@@ -108,7 +108,7 @@
       "regionCode": "US",
       "placeCount": 30,
       "packagePath": "packages/nba_stadiums.json",
-      "sha256": "74770a80a95222e695ece798910e9f0b53964a7a8a7d69180b7aba2e32c838aa"
+      "sha256": "187221474B67513CF06E2CA09E2FC832E80F4597F814A5114C5D3032277DE6BC"
     }
   ]
 }
