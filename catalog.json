@@ -1,6 +1,6 @@
 {
   "catalogSchemaVersion": 1,
-  "catalogVersion": 4,
+  "catalogVersion": 5,
   "packages": [
     {
       "packageId": "us-national-parks",
@@ -55,6 +55,60 @@
       "placeCount": 30,
       "packagePath": "packages/us_nfl_football_stadiums.json",
       "sha256": "11B79C353AF5BDDE4AF69513303EE085DFB67FB9AFD6A4E17881830833CA7725"
+    },
+    {
+      "packageId": "mlb-stadiums",
+      "packageVersion": 1,
+      "displayName": "MLB Stadiums",
+      "description": "Visit every active Major League Baseball home stadium across the United States and Canada.",
+      "author": "Journey",
+      "icon": "stadium",
+      "accentColor": "#1565C0",
+      "category": "Sports",
+      "countryCode": "US",
+      "countryName": "United States",
+      "journeyName": "MLB Stadiums",
+      "journeyDescription": "Visit all 30 active Major League Baseball home stadiums across the United States and Canada, from historic Fenway Park and Wrigley Field to waterfront favorites, retractable-roof venues, and the Athletics' temporary home in West Sacramento.",
+      "regionCode": "US",
+      "placeCount": 30,
+      "packagePath": "packages/mlb_stadiums.json",
+      "sha256": "1971BA1AE44AF64968AED9DC2E80F578BE5F8854F9098F65F7D3360D9D6EF9AB"
+    },
+    {
+      "packageId": "nhl-stadiums",
+      "packageVersion": 1,
+      "displayName": "NHL Stadiums",
+      "description": "Visit every active National Hockey League home arena across the United States and Canada.",
+      "author": "Journey",
+      "icon": "stadium",
+      "accentColor": "#263238",
+      "category": "Sports",
+      "countryCode": "US",
+      "countryName": "United States",
+      "journeyName": "NHL Stadiums",
+      "journeyDescription": "Visit all 32 active National Hockey League home arenas across the United States and Canada, from historic hockey landmarks to modern downtown venues and the new home of the Utah Mammoth.",
+      "regionCode": "US",
+      "placeCount": 32,
+      "packagePath": "packages/nhl_stadiums.json",
+      "sha256": "c37b1e6c7214ffbe3e0f3213c17ae5f3c59ab84cd3d48730f3778d2276b197f4"
+    },
+    {
+      "packageId": "nba-stadiums",
+      "packageVersion": 1,
+      "displayName": "NBA Stadiums",
+      "description": "Visit every active National Basketball Association home arena across the United States and Canada.",
+      "author": "Journey",
+      "icon": "stadium",
+      "accentColor": "#EF6C00",
+      "category": "Sports",
+      "countryCode": "US",
+      "countryName": "United States",
+      "journeyName": "NBA Stadiums",
+      "journeyDescription": "Visit all 30 active National Basketball Association home arenas across the United States and Canada, from historic Madison Square Garden and TD Garden to modern landmarks such as Chase Center and Intuit Dome.",
+      "regionCode": "US",
+      "placeCount": 30,
+      "packagePath": "packages/nba_stadiums.json",
+      "sha256": "74770a80a95222e695ece798910e9f0b53964a7a8a7d69180b7aba2e32c838aa"
     }
   ]
 }
