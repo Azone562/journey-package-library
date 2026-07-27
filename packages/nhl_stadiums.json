@@ -9,15 +9,15 @@
     "icon": "stadium",
     "accentColor": "#263238",
     "category": "Sports",
-    "countryCode": null,
-    "countryName": null
+    "countryCode": "US",
+    "countryName": "United States"
   },
   "journey": {
     "stableKey": "nhl-stadiums",
     "name": "NHL Stadiums",
     "description": "Visit all 32 active National Hockey League home arenas across the United States and Canada, from historic hockey landmarks to modern downtown venues and the new home of the Utah Mammoth.",
-    "type": "NHL_STADIUMS",
-    "regionCode": null,
+    "type": "STADIUMS",
+    "regionCode": "US",
     "iconName": "stadium",
     "version": 1,
     "mapPackageId": "north-america",
