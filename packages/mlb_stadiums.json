@@ -9,15 +9,15 @@
     "icon": "stadium",
     "accentColor": "#1565C0",
     "category": "Sports",
-    "countryCode": null,
-    "countryName": null
+    "countryCode": "US",
+    "countryName": "United States"
   },
   "journey": {
     "stableKey": "mlb-stadiums",
     "name": "MLB Stadiums",
     "description": "Visit all 30 active Major League Baseball home stadiums across the United States and Canada, from historic Fenway Park and Wrigley Field to waterfront favorites, retractable-roof venues, and the Athletics' temporary home in West Sacramento.",
-    "type": "MLB_STADIUMS",
-    "regionCode": null,
+    "type": "STADIUMS",
+    "regionCode": "US",
     "iconName": "stadium",
     "version": 1,
     "mapPackageId": "us",
