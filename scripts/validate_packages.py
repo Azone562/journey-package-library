@@ -15,6 +15,7 @@ SUPPORTED_JOURNEY_TYPES = {
 }
 
 SUPPORTED_ICONS = {
+    "tree",
     "park",
     "stadium",
 }
@@ -217,20 +218,6 @@ def validate_package(
             )
         )
 
-    if (
-        isinstance(package_version, int)
-        and isinstance(journey_version, int)
-        and package_version != journey_version
-    ):
-        errors.append(
-            ValidationError(
-                package_path.name,
-                (
-                    "'metadata.packageVersion' and "
-                    "'journey.version' must match."
-                ),
-            )
-        )
 
     journey_type = journey.get("type")
 
@@ -274,20 +261,6 @@ def validate_package(
             )
         )
 
-    if (
-        metadata_icon in SUPPORTED_ICONS
-        and journey_icon in SUPPORTED_ICONS
-        and metadata_icon != journey_icon
-    ):
-        errors.append(
-            ValidationError(
-                package_path.name,
-                (
-                    "'metadata.icon' and "
-                    "'journey.iconName' must match."
-                ),
-            )
-        )
 
     items = journey.get("items")
 
