@@ -1,5 +1,6 @@
 import hashlib
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -140,12 +141,35 @@ def build_catalog_entry(
 
 def determine_catalog_version() -> int:
     """
-    Determines the temporary catalog version.
+    Determines the generated catalog version.
 
-    During Milestone 1B we deliberately reuse the current production
-    catalogVersion when possible. Automatic version management will be
-    introduced only after the generated catalog has been verified.
+    GitHub Actions supplies JOURNEY_CATALOG_VERSION when publishing.
+    Local development falls back to the existing catalog version so
+    developers can safely test generation without changing versions.
     """
+
+    workflow_version = os.environ.get(
+        "JOURNEY_CATALOG_VERSION"
+    )
+
+    if workflow_version is not None:
+        try:
+            catalog_version = int(
+                workflow_version
+            )
+        except ValueError as exception:
+            raise ValueError(
+                "JOURNEY_CATALOG_VERSION must "
+                "be a positive integer."
+            ) from exception
+
+        if catalog_version <= 0:
+            raise ValueError(
+                "JOURNEY_CATALOG_VERSION must "
+                "be greater than zero."
+            )
+
+        return catalog_version
 
     production_catalog_path = (
         REPOSITORY_ROOT
