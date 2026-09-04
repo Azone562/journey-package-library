@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "metadata": {
     "packageId": "us-nfl-football-stadiums",
-    "packageVersion": 3,
+    "packageVersion": 5,
     "displayName": "US NFL Football Stadiums",
     "description": "All active home stadiums used by National Football League teams in the United States.",
     "author": "Journey",
