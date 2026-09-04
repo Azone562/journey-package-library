@@ -7,6 +7,7 @@ on:
     paths:
       - "source/packages/**"
       - "scripts/validate_packages.py"
+      - "scripts/build_catalog.py"
       - ".github/workflows/validate-packages.yml"
 
   push:
@@ -16,6 +17,7 @@ on:
     paths:
       - "source/packages/**"
       - "scripts/validate_packages.py"
+      - "scripts/build_catalog.py"
       - ".github/workflows/validate-packages.yml"
 
 permissions:
@@ -23,7 +25,7 @@ permissions:
 
 jobs:
   validate:
-    name: Validate Journey packages
+    name: Validate and build Journey packages
     runs-on: ubuntu-latest
 
     steps:
@@ -37,3 +39,15 @@ jobs:
 
       - name: Validate packages
         run: python scripts/validate_packages.py
+
+      - name: Build catalog
+        run: python scripts/build_catalog.py
+
+      - name: Verify generated files
+        run: |
+          test -f catalog.json
+          test -d packages
+          test "$(find packages -maxdepth 1 -name '*.json' | wc -l)" -gt 0
+
+      - name: Check for unexpected whitespace errors
+        run: git diff --check
