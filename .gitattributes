@@ -1,0 +1,10 @@
+﻿# Journey package publishing requires deterministic file bytes.
+# JSON and automation files therefore always use LF line endings,
+# regardless of the contributor's operating system.
+
+*.json text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.md text eol=lf

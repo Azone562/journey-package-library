@@ -1,0 +1,53 @@
+name: Validate Journey Packages
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "source/packages/**"
+      - "scripts/validate_packages.py"
+      - "scripts/build_catalog.py"
+      - ".github/workflows/validate-packages.yml"
+
+  push:
+    branches:
+      - main
+      - "feature/**"
+    paths:
+      - "source/packages/**"
+      - "scripts/validate_packages.py"
+      - "scripts/build_catalog.py"
+      - ".github/workflows/validate-packages.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate and build Journey packages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate packages
+        run: python scripts/validate_packages.py
+
+      - name: Build catalog
+        run: python scripts/build_catalog.py
+
+      - name: Verify generated files
+        run: |
+          test -f catalog.json
+          test -d packages
+          test "$(find packages -maxdepth 1 -name '*.json' | wc -l)" -gt 0
+
+      - name: Check for unexpected whitespace errors
+        run: git diff --check
