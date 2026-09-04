@@ -19,7 +19,7 @@
     "type": "STADIUMS",
     "regionCode": "US",
     "iconName": "stadium",
-    "version": 3,
+    "version": 5,
     "mapPackageId": "us",
     "items": [
       {
