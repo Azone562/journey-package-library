@@ -14,12 +14,12 @@ SOURCE_PACKAGE_DIRECTORY = (
 
 GENERATED_PACKAGE_DIRECTORY = (
     REPOSITORY_ROOT
-    / "generated_packages"
+    / "packages"
 )
 
 GENERATED_CATALOG_PATH = (
     REPOSITORY_ROOT
-    / "generated_catalog.json"
+    / "catalog.json"
 )
 
 CATALOG_SCHEMA_VERSION = 1
@@ -242,7 +242,8 @@ def prepare_generated_packages(
 
 def main() -> int:
     """
-    Generates a candidate Journey catalog from validated source packages.
+    Generates the production Journey catalog and published package files
+    from validated source packages.
     """
 
     if not SOURCE_PACKAGE_DIRECTORY.exists():
@@ -338,7 +339,7 @@ def main() -> int:
 
     print()
     print(
-        "SUCCESS: Candidate catalog generated."
+        "SUCCESS: Production Journey catalog generated."
     )
     print(
         f"Catalog: {GENERATED_CATALOG_PATH}"
