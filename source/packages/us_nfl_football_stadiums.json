@@ -16,7 +16,7 @@
     "stableKey": "us-nfl-football-stadiums",
     "name": "U.S. NFL Football Stadiums",
     "description": "Visit the 30 active stadiums used by all 32 NFL teams, from historic venues such as Lambeau Field and Soldier Field to modern landmarks including SoFi Stadium, Allegiant Stadium, and Buffalo's new Highmark Stadium.",
-    "type": "NFL_STADIUMS",
+    "type": "STADIUMS",
     "regionCode": "US",
     "iconName": "stadium",
     "version": 3,
