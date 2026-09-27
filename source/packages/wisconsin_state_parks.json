@@ -2,9 +2,9 @@
   "schemaVersion": 3,
   "metadata": {
     "packageId": "wisconsin-state-parks",
-    "packageVersion": 1,
+    "packageVersion": 2,
     "displayName": "Wisconsin State Parks",
-    "description": "Explore Wisconsin's state parks, forests, and recreation areas.",
+    "description": "Explore all 50 official Wisconsin State Parks.",
     "author": "Journey",
     "icon": "tree",
     "accentColor": "#2E7D32",
@@ -15,11 +15,11 @@
   "journey": {
     "stableKey": "wisconsin-state-parks",
     "name": "Wisconsin State Parks",
-    "description": "Explore 50 remarkable state parks and recreation areas across Wisconsin, from Great Lakes shorelines and Northwoods waterfalls to Driftless bluffs and glacial landscapes.",
+    "description": "Explore all 50 official Wisconsin State Parks, from Great Lakes shorelines and Northwoods waterfalls to Driftless bluffs, historic sites, forests, and glacial landscapes.",
     "type": "STATE_PARKS",
     "regionCode": "US-WI",
     "iconName": "park",
-    "version": 3,
+    "version": 4,
     "mapPackageId": "us-wi",
     "items": [
       {
@@ -143,36 +143,6 @@
         "sortOrder": 7
       },
       {
-        "stableKey": "capital-springs-state-recreation-area",
-        "externalId": "WI-DNR-CAPITAL-SPRINGS-STATE-RECREATION-AREA",
-        "name": "Capital Springs State Recreation Area",
-        "description": "Prairies, wetlands, lakeshore, trails, and archaeological sites create a surprisingly wild outdoor escape just minutes from downtown Madison.",
-        "latitude": 43.02944,
-        "longitude": -89.33722,
-        "category": "State Recreation Area",
-        "regionCode": "US-WI",
-        "regionName": "Wisconsin",
-        "countryCode": "US",
-        "countryName": "United States",
-        "websiteUrl": null,
-        "sortOrder": 8
-      },
-      {
-        "stableKey": "chippewa-moraine-state-recreation-area",
-        "externalId": "WI-DNR-CHIPPEWA-MORAINE-STATE-RECREATION-AREA",
-        "name": "Chippewa Moraine State Recreation Area",
-        "description": "Kettle lakes, glacial ridges, forest trails, and an interpretive center showcase one of Wisconsin's finest Ice Age landscapes along the Ice Age Trail.",
-        "latitude": 45.21694,
-        "longitude": -91.38778,
-        "category": "State Recreation Area",
-        "regionCode": "US-WI",
-        "regionName": "Wisconsin",
-        "countryCode": "US",
-        "countryName": "United States",
-        "websiteUrl": null,
-        "sortOrder": 9
-      },
-      {
         "stableKey": "copper-culture-state-park",
         "externalId": "WI-DNR-COPPER-CULTURE-STATE-PARK",
         "name": "Copper Culture State Park",
@@ -185,7 +155,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 10
+        "sortOrder": 8
       },
       {
         "stableKey": "copper-falls-state-park",
@@ -200,7 +170,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 11
+        "sortOrder": 9
       },
       {
         "stableKey": "council-grounds-state-park",
@@ -215,7 +185,22 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 12
+        "sortOrder": 10
+      },
+      {
+        "stableKey": "cross-plains-state-park",
+        "externalId": "WI-DNR-CROSS-PLAINS-STATE-PARK",
+        "name": "Cross Plains State Park",
+        "description": "Glacial landforms, a meltwater-carved gorge, prairie and woodland trails, and sweeping views across both driftless and glaciated terrain highlight this park west of Madison.",
+        "latitude": 43.085592,
+        "longitude": -89.612215,
+        "category": "State Park",
+        "regionCode": "US-WI",
+        "regionName": "Wisconsin",
+        "countryCode": "US",
+        "countryName": "United States",
+        "websiteUrl": "https://dnr.wisconsin.gov/topic/parks/crossplains",
+        "sortOrder": 11
       },
       {
         "stableKey": "devils-lake-state-park",
@@ -230,7 +215,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 13
+        "sortOrder": 12
       },
       {
         "stableKey": "governor-dodge-state-park",
@@ -245,7 +230,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 14
+        "sortOrder": 13
       },
       {
         "stableKey": "governor-nelson-state-park",
@@ -260,7 +245,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 15
+        "sortOrder": 14
       },
       {
         "stableKey": "governor-thompson-state-park",
@@ -275,7 +260,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 16
+        "sortOrder": 15
       },
       {
         "stableKey": "harrington-beach-state-park",
@@ -290,7 +275,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 17
+        "sortOrder": 16
       },
       {
         "stableKey": "hartman-creek-state-park",
@@ -305,6 +290,21 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
+        "sortOrder": 17
+      },
+      {
+        "stableKey": "heritage-hill-state-park",
+        "externalId": "WI-DNR-HERITAGE-HILL-STATE-PARK",
+        "name": "Heritage Hill State Park",
+        "description": "A living-history museum along the Fox River in Green Bay preserves historic Wisconsin buildings and interprets life from the fur-trade era through the early 20th century.",
+        "latitude": 44.4739,
+        "longitude": -88.0331,
+        "category": "State Park",
+        "regionCode": "US-WI",
+        "regionName": "Wisconsin",
+        "countryCode": "US",
+        "countryName": "United States",
+        "websiteUrl": "https://dnr.wisconsin.gov/topic/parks/heritagehill",
         "sortOrder": 18
       },
       {
@@ -428,6 +428,21 @@
         "sortOrder": 26
       },
       {
+        "stableKey": "lost-dauphin-state-park",
+        "externalId": "WI-DNR-LOST-DAUPHIN-STATE-PARK",
+        "name": "Lost Dauphin State Park",
+        "description": "A small wooded park above the Fox River south of De Pere offers rolling hiking trails, picnicking, river views, and a quiet connection to local history.",
+        "latitude": 44.389157,
+        "longitude": -88.123992,
+        "category": "State Park",
+        "regionCode": "US-WI",
+        "regionName": "Wisconsin",
+        "countryCode": "US",
+        "countryName": "United States",
+        "websiteUrl": "https://dnr.wisconsin.gov/topic/parks/lostdauphin",
+        "sortOrder": 27
+      },
+      {
         "stableKey": "merrick-state-park",
         "externalId": "WI-DNR-MERRICK-STATE-PARK",
         "name": "Merrick State Park",
@@ -440,7 +455,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 27
+        "sortOrder": 28
       },
       {
         "stableKey": "mill-bluff-state-park",
@@ -455,7 +470,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 28
+        "sortOrder": 29
       },
       {
         "stableKey": "mirror-lake-state-park",
@@ -470,7 +485,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 29
+        "sortOrder": 30
       },
       {
         "stableKey": "natural-bridge-state-park",
@@ -485,7 +500,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 30
+        "sortOrder": 31
       },
       {
         "stableKey": "nelson-dewey-state-park",
@@ -500,7 +515,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 31
+        "sortOrder": 32
       },
       {
         "stableKey": "new-glarus-woods-state-park",
@@ -515,7 +530,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 32
+        "sortOrder": 33
       },
       {
         "stableKey": "newport-state-park",
@@ -530,7 +545,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 33
+        "sortOrder": 34
       },
       {
         "stableKey": "pattison-state-park",
@@ -545,7 +560,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 34
+        "sortOrder": 35
       },
       {
         "stableKey": "peninsula-state-park",
@@ -560,7 +575,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 35
+        "sortOrder": 36
       },
       {
         "stableKey": "perrot-state-park",
@@ -575,7 +590,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 36
+        "sortOrder": 37
       },
       {
         "stableKey": "potawatomi-state-park",
@@ -590,7 +605,7 @@
         "countryCode": "US",
         "countryName": "United States",
         "websiteUrl": null,
-        "sortOrder": 37
+        "sortOrder": 38
       },
       {
         "stableKey": "rib-mountain-state-park",
@@ -600,21 +615,6 @@
         "latitude": 44.92,
         "longitude": -89.68,
         "category": "State Park",
-        "regionCode": "US-WI",
-        "regionName": "Wisconsin",
-        "countryCode": "US",
-        "countryName": "United States",
-        "websiteUrl": null,
-        "sortOrder": 38
-      },
-      {
-        "stableKey": "richard-bong-state-recreation-area",
-        "externalId": "WI-DNR-RICHARD-BONG-STATE-RECREATION-AREA",
-        "name": "Richard Bong State Recreation Area",
-        "description": "Prairies, wetlands, lakes, extensive trails, and unusual open-space activities fill the former site of an unfinished Air Force base in southeastern Wisconsin.",
-        "latitude": 42.64,
-        "longitude": -88.128,
-        "category": "State Recreation Area",
         "regionCode": "US-WI",
         "regionName": "Wisconsin",
         "countryCode": "US",
