@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "metadata": {
     "packageId": "wisconsin-state-parks",
-    "packageVersion": 2,
+    "packageVersion": 4,
     "displayName": "Wisconsin State Parks",
     "description": "Explore all 50 official Wisconsin State Parks.",
     "author": "Journey",
