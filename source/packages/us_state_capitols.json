@@ -6,7 +6,7 @@
     "displayName": "U.S. Capitols",
     "description": "Visit all 50 state capitol buildings and the United States Capitol in Washington, D.C.",
     "author": "Journey",
-    "icon": "stadium",
+    "icon": "building",
     "accentColor": "#546E7A",
     "category": "Landmarks",
     "countryCode": "US",
@@ -18,7 +18,7 @@
     "description": "Explore all 50 U.S. state capitol buildings plus the United States Capitol in Washington, D.C., for a 51-landmark journey through American civic architecture and history.",
     "type": "STATE_CAPITOLS",
     "regionCode": "US",
-    "iconName": "stadium",
+    "iconName": "building",
     "version": 2,
     "mapPackageId": "us",
     "items": [
