@@ -15,7 +15,7 @@
   "journey": {
     "stableKey": "us-state-capitols",
     "name": "U.S. Capitols",
-    "description": "Explore all 50 U.S. state capitol buildings plus the United States Capitol in Washington, D.C., for a 51-landmark journey through American civic architecture and history.",
+    "description": "Explore all 50 U.S. state capitol buildings plus the United States Capitol in Washington, D.C., for a 51-landmark journey through American civic architecture and history",
     "type": "STATE_CAPITOLS",
     "regionCode": "US",
     "iconName": "building",
