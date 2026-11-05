@@ -22,7 +22,6 @@ SUPPORTED_ICONS = {
     "stadium",
     "lake",
     "building"
-    
 }
 
 
