@@ -13,14 +13,15 @@ SUPPORTED_JOURNEY_TYPES = {
     "NATIONAL_PARKS",
     "STADIUMS",
     "LAKES",
+    "STATE_CAPITOLS",
 }
 
 SUPPORTED_ICONS = {
     "tree",
     "park",
     "stadium",
-    "lake"
-    
+    "lake",
+    "building"
 }
 
 
